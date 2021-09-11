@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(250, 248, 240);
+    font-family: Microsoft JhengHei;
+}
+
+.banner {
+    background-color: #44516f;
+    color:lightgreen;
+    height: 100px;
+    font-size: 48px;
+    border-radius: 10px;
+    /* top/bottom  left/right */
+    padding: 10px 20px;
+    margin: 10px;
+    /* 水平 */
+    text-align: center;
+    /* 垂直 */
+    line-height: 100px;
+}
+
+#container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.text-1{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px 20px;
+}
+
+.text-2{
+    background-color: tomato;
+    color:yellow;
+    border: 2px solid salmon;
+    padding:10px;
+}
+
+.text-3{
+    border-radius: 5px;
+    color:pink;
+    padding:20px;
+}
+
+.wording{
+    color:white;
+    font-size: 32px;
+}
+
+#picture{
+    text-align: center;
+}
+
+#picture img{
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+.sub-title{
+    background-color: #44516f;
+    border-radius: 10px;
+    color:white;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.block-1{
+    text-align: center;
+}
+
+.block-1 img{
+    width: 100%;
+}
+
+.block-1 ol{
+    list-style-type: none;
+    border: 2px dashed cornflowerblue;
+    padding: 10px;
+}
+
+.block-2{
+    font-size: 20px;
+    font-style: italic;
+    background-color: rgb(253, 221, 211);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.block-2 a{
+    color: goldenrod;
+}
+
+.block-3 table{
+    border: 2px solid black;
+    width: 90%;
+    margin: 0px auto;
+    height: 300px;
+    font-size: 20px;
+    text-align: center;
+}
+.block-3>table>thead>tr>th{
+    background-color: rgb(110, 196, 139);
+}
+
+.block-3 tr{
+    background-color: rgb(215, 234, 240);
+    font-size: 10px;
+}
+
+.block-4{
+    background-color: rgb(235, 214, 114);
+    padding: 20px;
+    text-align: center;
+}
+
+.block-4 form{
+    padding: 20px 0px;
+    background-color: lightgoldenrodyellow;
+}
+
+label,input,textarea, button{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    width: 100px;
+    background-color: rgb(37, 59, 5);
+    color: white;
+}
+
+.footer{
+    text-align: center;
+}
+
+#idol{
+    padding: 20px;
+}
+
+#idol img{
+    border-radius: 10px;
+    margin: 20px;
+    float: right;
+}
+
